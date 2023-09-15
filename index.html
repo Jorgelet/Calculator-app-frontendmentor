@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header class="header">
+      <h1 class="header__title">calc</h1>
+
+      <div class="header__theme">
+        <h2 class="theme__title">THEME</h2>
+        <div class="theme__circle">
+          <div class="theme__number">
+            <p class="selection selection_1">1</p>
+            <p class="selection selection_2">2</p>
+            <p class="selection selection_3">3</p>
+          </div>
+          
+          <div class="circle__container">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <main class="main">
+      <div class="main__number">
+        <p class="result"></p>
+      </div>
+
+      <div class="main__calc">
+        <div class="keys white">7</div>
+        <div class="keys white">8</div>
+        <div class="keys white">9</div>
+        <div class="blue blue__del">DEL</div>
+        <div class="keys white">4</div>
+        <div class="keys white">5</div>
+        <div class="keys white">6</div>
+        <div class="white suma">+</div>
+        <div class="keys white">1</div>
+        <div class="keys white">2</div>
+        <div class="keys white">3</div>
+        <div class="white resta">-</div>
+        <div class="keys white">.</div>
+        <div class="keys white">0</div>
+        <div class="white division">/</div>
+        <div class="white multi">x</div>
+        <div class="blue reset">RESET</div>
+        <div class="red">=</div>
+      </div>
+
+    </main>
+  </div>
+  <script src="code.js"></script>
+</body>
+</html>
+
